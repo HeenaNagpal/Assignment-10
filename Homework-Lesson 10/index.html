@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>JAVASCRIPT FORM-Assignment 10</title>
+  </head>
+  <body>
+		<h2>Welcome to Girls Gang!</h2>
+<p>Thanks for showing interst in joining our fierce Girl GangWe are also exited to meet you. First,tell us more about you.</p>
+
+<div class="container">
+  <form>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+      <div class="ftooltip" id="fnameTooltip">Please enter your last  name</div>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your first name.." >
+    </div>
+    <div id="infoMessage" style="color: blue;"></div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+      <div class="ltooltip" id="lnameTooltip">Please enter your last  name</div>
+
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+ 
+  <div class="col-25">
+    <label for="email">Email</label>
+  </div>
+  <div class="col-75">
+    <input type="email" id="email" name="email" placeholder="Your email..">
+  </div>
+</div>
+
+  <div>
+
+
+  <p>How often will you join us?</p>
+<input type="radio" id="Weekly" name="Weekly" value="Weekly">
+<label for="Weekly">Weekly</label><br>
+<input type="radio" id="Monthly" name="Monthly" value="Monthly">
+<label for="Monthly">Monthly</label><br>
+<input type="radio" id="Yes,I want be a Boss Babe Mentor too!" name="Yes,I want be a Boss Babe Mentor too!" value="Monthly">
+<label for="Yes,I want be a Boss Babe Mentor too!">Yes,I want be a Boss Babe Mentor too!</label><br>
+  <br>  
+
+  
+
+</div>
+  <div class="row">
+    <div class="col-25">
+      <label for="If Mentoring,are you going to empower or enable?">If Mentoring,are you going to empower or enable?</label>
+    </div>
+    <div class="col-75">
+      <select id="If Mentoring,are you going to empower or enable?" name="If Mentoring,are you going to empower or enable?">
+        <option value="Empower">Empower</option>
+        <option value="Enable">Enable</option>
+        
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="bio">Why do you want to join Girl Gang?</label>
+    </div>
+    <div class="col-75">
+      <textarea id="bio" name="bio" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <button type="submit"> Submit</button>
+  </div>
+  </form>
+</div>
+
+		<script src="js/main.js">
+
+    </script>
+	</body>
+</html>
